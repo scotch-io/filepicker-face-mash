@@ -1,0 +1,24 @@
+{
+  "name": "scotch-face-mash",
+  "version": "1.0.0",
+  "description": "Filepicker demo app to build a wall of user uploads.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scotch-io/scotch-face-mash"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scotch-io/scotch-face-mash/issues"
+  },
+  "homepage": "https://github.com/scotch-io/scotch-face-mash",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.12.4",
+    "mongoose": "^4.0.5"
+  }
+}

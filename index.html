@@ -1,0 +1,84 @@
+<!doctype html>
+<head>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <title>Scotch Face Mash</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="https://scotch.io/favicon.ico">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/"><i class="fa fa-smile-o"></i> Scotch Face Mash</a>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><i class="fa fa-smile-o"></i> Filepicker Face Mash</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://scotch.io">Check out Scotch.io</a></li>
+                    <li><a href="https://filepicker.com">Check out Filepicker</a></li>
+                    <li><a href="#">Read the Tutorial</a></li>
+                </ul>
+            </div>
+        </div>
+     </nav>
+
+    <div class="container">
+        <div class="intro-stuff">
+            <h1>Filepicker Face Mash</h1>
+            <h4>By: <a href="https://scotch.io">Scotch.io</a>
+            <p class="lead">Pick an image and upload it. Try out the facial recognition. See it posted in real-time. Please be SFW you monsters.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row button">
+            <div class="col-md-12">
+                <a href="#" id="big-freaking-button" class="btn btn-danger btn-lg">Filepicker Something</a>
+            </div>
+        </div>
+        <div class="row wall">
+            <template>
+                <div class="col-md-3 col-sm-6">
+                    <img src="{src}" class="img-responsive img-thumbnail">
+                </div>
+            </template>
+        </div>
+    </div>
+
+
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://api.filepicker.io/v2/filepicker.js"></script>
+    <script src="power.js"></script>
+
+</body>
+</html>
